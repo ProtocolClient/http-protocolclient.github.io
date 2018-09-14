@@ -152,6 +152,11 @@ img {
 // .masthead
 //
 
+.center-image {
+    margin: 0 auto;
+    display: block;
+}
+
 .wrapper-masthead {
   border-bottom: solid 8px $colourAccent;
   position: fixed;
