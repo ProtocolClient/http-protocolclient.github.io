@@ -209,13 +209,13 @@ img {
 }
 
 .site-name {
-  margin: 0;
-  color: $darkGray;
+  margin-top: 3px;
+  color: $colourMainText;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
-  font-size: 21px;
-  line-height: normal;
+  font-size: 22px;
+  line-height: 22px;
   text-transform: uppercase;
 }
 
