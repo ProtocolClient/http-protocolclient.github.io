@@ -271,13 +271,14 @@ nav {
     @include mobile {
       margin: 0 10px;
     }
- }
-
-  .download-link {
-    color: $white;
-    background-color: $colourCallToAction;
   }
 }
+
+.download-link {
+  color: $white;
+  background-color: $colourCallToAction;
+}
+
 
 //
 // .main
