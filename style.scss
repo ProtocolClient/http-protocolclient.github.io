@@ -261,15 +261,21 @@ nav {
     line-height: 70px;
 	  
     padding: 27px 10px;
-	  
+
+    &:hover,
+    &:focus {
+      color: $white;
+      background-color: $colourAccent;
+    }
+    
     @include mobile {
       margin: 0 10px;
     }
-  }
-  
-  a:hover {
+ }
+
+  .download-link {
     color: $white;
-    background-color: $colourAccent;
+    background-color: $colourCallToAction;
   }
 }
 
