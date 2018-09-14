@@ -102,7 +102,7 @@ ul ul, ol ul {
 
 em, i {
   font-style: italic;
-}
+} 
 
 strong, b {
   font-weight: bold;
@@ -169,8 +169,16 @@ img {
 }
 
 .site-logo {
+  float: left;
+  margin-right: 15px;
   height: 70px;
   width: auto;
+  
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }  
 }
 
 .site-avatar {
