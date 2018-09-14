@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: page
+title: Announcements
+permalink: /annoucements/
 ---
 
 <div class="posts">
