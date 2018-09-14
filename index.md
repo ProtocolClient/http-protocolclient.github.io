@@ -4,18 +4,17 @@ layout: default
 
 ### NEWS
 <div class="posts">
-  {% for post in site.posts %}
     <article class="post">
+        
+        <h1><a href="{{ site.baseurl }}{{ site.posts[0].url }}">{{ site.posts[0].title }}</a></h1>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ site.posts[0].title }}</a></h1>
-
-      <div class="entry">
+        <div class="entry">
         {{ site.posts[0].excerpt }}
-      </div>
+        </div>
 
-      <a href="{{ site.baseurl }}{{ site.posts[0].url }}" class="read-more">Read More</a>
+        <a href="{{ site.baseurl }}{{ site.posts[0].url }}" class="read-more">Read More</a>
+        
     </article>
-  {% endfor %}
 </div>
 
 ### PROTOCOL CLIENT
