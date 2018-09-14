@@ -2,7 +2,7 @@
 layout: default
 ---
 
-### NEWS
+### LASTEST NEWS
 <div class="posts">
     <article class="post">
         
