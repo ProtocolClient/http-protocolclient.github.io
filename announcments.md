@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Announcements
-permalink: /annoucements/
+permalink: /announcements/
 ---
 
 <div class="posts">
