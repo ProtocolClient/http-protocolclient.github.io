@@ -153,16 +153,15 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
   border-bottom: solid 8px $colourAccent;
 }
 
-#main {
+.wrapper-masthead-underline {
   border-top: solid 2px $colourCallToAction;
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 0 0;
 
   @include mobile {
     text-align: center;
