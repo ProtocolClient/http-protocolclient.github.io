@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-ABOUT US
-========
 When Satoshi Nakamoto released Bitcoin to the world, he was very clear that “the nature of Bitcoin is such that once version 0.1.0 was released, the core design was set in stone for the rest of its lifetime.” Inherent to this statement is the fundamental idea that the economic incentives inherent to the protocol were designed to scale Bitcoin.
 
 We acknowledge that Bitcoin itself is an economic system that uses cryptography to create the world’s first peer to peer electronic currency that doesn’t rely on a trusted third party. Once the protocol is restored we will be a part of the Foundation that Sets it in Stone.
