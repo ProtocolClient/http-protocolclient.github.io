@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# News
+### NEWS
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
@@ -18,7 +18,7 @@ layout: default
   {% endfor %}
 </div>
 
-# PROTOCOL CLIENT
+### PROTOCOL CLIENT
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu tristique ligula, id elementum purus. Donec tincidunt finibus nisi eget sollicitudin. Phasellus egestas elit at egestas vulputate. Nam tristique interdum consectetur. Nunc pellentesque tristique cursus. Vivamus ac pharetra dolor, sit amet gravida est. Vivamus eget malesuada arcu, ut consequat elit. Phasellus semper sem sit amet condimentum semper. Curabitur ultrices convallis mi, eget blandit lacus convallis non. Nullam non suscipit urna, a sollicitudin justo. Maecenas lorem enim, pharetra vel mi vitae, lobortis molestie nisi. Nam non eleifend magna.
 
