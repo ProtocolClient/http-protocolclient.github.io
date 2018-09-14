@@ -8,6 +8,7 @@
 @import "reset";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
+@import url("https://use.typekit.net/apg2jpz.css"); // Typekit fonts
 
 /**************/
 /* BASE RULES */
@@ -19,7 +20,7 @@ html {
 
 body {
   background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 brandon-grotesque;	
   color: $colourMainText;
 }
 
@@ -31,7 +32,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
   color: $colourMainText;
   font-weight: bold;
 
@@ -212,7 +212,6 @@ img {
   margin-top: 3px;
   color: $colourMainText;
   cursor: pointer;
-  font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 22px;
   line-height: 22px;
@@ -243,7 +242,6 @@ img {
 
 nav {
   float: right;
-  font-family: $helveticaNeue;
   font-size: 18px;
 	
   @include mobile {
