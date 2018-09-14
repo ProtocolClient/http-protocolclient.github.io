@@ -155,10 +155,16 @@ img {
 .wrapper-masthead {
   border-bottom: solid 8px $colourAccent;
   position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0px;
 }
 
 .wrapper-masthead-underline {
   border-top: solid 2px $colourCallToAction;
+  position: fixed;
+  top: 58px;
+  width: 100%;
 }
 
 .masthead {
