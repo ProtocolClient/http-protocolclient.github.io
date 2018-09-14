@@ -14,7 +14,7 @@ We at the Protocol Client believe Satoshi Nakamoto has created a battle-tested p
 
 > Bitcoin never really hits a scale ceiling… (bitcoin) can cope with extreme size
 >
-> *Satoshi to Mike Hearn*
+> &mdash; <cite>Satoshi to Mike Hearn</cite>
 
 The Protocol Client is committed to assist miners in removing the block size cap entirely and not making any changes to the economic incentives of the system while removing the scale ceiling set in Bitcoin by later developers that did not understand Satoshi’s vision.
 
