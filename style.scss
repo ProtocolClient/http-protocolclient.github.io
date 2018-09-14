@@ -171,7 +171,7 @@ img {
 .site-logo {
   float: left;
   margin-right: 15px;
-  height: 70px;
+  height: $headerHeight;
   width: auto;
   
   @include mobile {
@@ -183,8 +183,8 @@ img {
 
 .site-avatar {
   float: left;
-  width: 70px;
-  height: 70px;
+  width: $headerHeight;
+  height: $headerHeight;
   margin-right: 15px;
 
   @include mobile {
@@ -213,8 +213,8 @@ img {
   color: $colourMainText;
   cursor: pointer;
   font-weight: 300;
-  font-size: 22px;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 16px;
   text-transform: uppercase;
 }
 
@@ -242,7 +242,7 @@ img {
 
 nav {
   float: right;
-  font-size: 18px;
+  font-size: 13px;
 	
   @include mobile {
     float: none;
@@ -254,9 +254,9 @@ nav {
   a {
     color: $colourMainText;
     text-align: right;
-    font-weight: 300;
+    font-weight: 700;
    
-    line-height: 70px;
+    line-height: $headerHeight;
 	  
     padding: 27px 10px;
 
