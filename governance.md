@@ -13,7 +13,7 @@ Developers and Professionals need a supporting framework and we provide that to 
 
 Below is the starting framework of the Protocol Client, as the sector and ourselves grow we leave room for expansion in governance to continue to build a supporting framework that keeps our project from failing to any one source.
 
-![Image](protocolclient.github.io/images/governance diagram.png)
+->![Image](/images/governance diagram.png)<-
 
 ### Lead Developer
 The Lead Developer is in charge of the repository used, main commit access and giving out commit access as appropriate. They also recruit and train the Assistant Lead Developers and coordinate their work and teams with Public Relations to support and assist as needed.
