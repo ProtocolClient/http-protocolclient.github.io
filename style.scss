@@ -254,17 +254,16 @@ nav {
   }
 
   a {
-    margin-left: 20px;
     color: $colourMainText;
     text-align: right;
     font-weight: 300;
-    letter-spacing: 1px;
-
-    height: 70px;
-    
+   
+    line-height: 70px;
+	  
+    padding: 27px 10px;
+	  
     @include mobile {
       margin: 0 10px;
-      color: $blue;
     }
   }
   
