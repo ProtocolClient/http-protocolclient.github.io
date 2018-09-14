@@ -219,7 +219,7 @@ img {
 }
 
 .site-name-1 {
-  color: $colourMainText;
+  color: $gray;
 }
 
 .site-name-2 {
@@ -260,6 +260,8 @@ nav {
 	  
     padding: 27px 10px;
 
+    text-transform: uppercase;	  
+	  
     &:hover,
     &:focus {
       color: $white;
