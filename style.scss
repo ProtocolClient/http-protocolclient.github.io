@@ -214,8 +214,21 @@ img {
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
+  font-size: 21px;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.site-name-1 {
+  color: $colourMainText;
+}
+
+.site-name-2 {
+  color: $colourAccent;
+}
+
+.site-name-3 {
+  color: $colourCallToAction;
 }
 
 .site-description {
