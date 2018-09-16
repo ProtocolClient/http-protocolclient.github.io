@@ -83,18 +83,14 @@ nav {
         right: 0;
         top: calc(-#{$headerHeight} - 8px);
     }
-    .responsive a {
-        display: block;
-        text-align: left;
-        line-height: normal;
-        margin: 0;
-    }
+    .responsive a,
     .responsive .dropdown {
         display: block;
         text-align: left;
         line-height: normal;
         margin: 0;
     }
+
     .responsive .dropdown-content {position: relative;}
     .responsive .dropdown .dropbtn {
         display: block;
@@ -102,6 +98,7 @@ nav {
         text-align: left;
         line-height: normal;
         margin: 0;
+        padding: 15px;
     }
     
     .dropbtn:after {
