@@ -291,6 +291,10 @@ nav {
       margin: 0 10px;
     }
   }
+	
+  .download-link {
+    padding-bottom: 29px!important;
+  }
 }
 
 .active-menu {
@@ -301,7 +305,6 @@ nav {
 .download-link {
   color: $white!important;
   background-color: $colourCallToAction;
-  padding-bottom: 24px!important;
 }
 
 
