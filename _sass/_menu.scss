@@ -80,7 +80,7 @@ nav {
         top: calc(#{$headerHeight} + 8px);
         height: calc(100vh - 8px);
     }
-    .responsive:after {
+    .responsive a:before {
         clear: both;
     }
     .responsive a.burger-icon {
@@ -90,7 +90,6 @@ nav {
     }
     .responsive a,
     .responsive .dropdown {
-        clear: both;
         display: block;
         text-align: left;
         line-height: normal;
