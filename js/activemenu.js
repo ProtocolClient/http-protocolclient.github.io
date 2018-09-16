@@ -16,7 +16,7 @@ $( document ).ready(function() {
         if (GetFullURL($(this).attr("href")) == window.location.href)
             $(this).addClass("active-menu");
         
-        alert($(this).attr("href"));        
+        alert(GetFullURL($(this).attr("href")));        
         alert(window.location.href);
 
     });
