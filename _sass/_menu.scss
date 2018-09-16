@@ -80,7 +80,7 @@ nav {
     .responsive a.burger-icon {
         position: absolute;
         right: 0;
-        top: calc(- (#{$headerHeight} - 8px);
+        top: calc(-(#{$headerHeight} - 8px);
     }
     .responsive a {
         display: block;
