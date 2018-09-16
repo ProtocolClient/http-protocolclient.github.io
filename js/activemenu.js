@@ -1,10 +1,10 @@
 /// Requires jQuery
 
 function GetFullURL(url){
-    var img = document.createElement('img');
-    img.src = url;
-    url = img.src; 
-    img.src = null; 
+    var a = document.createElement('a');
+    a.href = url;
+    url = a.href; 
+    a.href = null; 
     
     return url;
 }
