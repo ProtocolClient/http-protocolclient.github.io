@@ -14,5 +14,8 @@ $( document ).ready(function() {
         $(this).removeClass("active-menu");
         if (GetFullURL($(this).attr("href")) == window.location.href)
             $(this).addClass("active-menu");
+        
+        console.log(window.location.href);
+        console.log(GetFullURL($(this).attr("href")));
     });
 });
