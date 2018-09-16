@@ -19,6 +19,12 @@
     padding: 0;
 }
 
+.dropbtn:after {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f007";
+}
+
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
