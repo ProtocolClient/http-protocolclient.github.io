@@ -80,7 +80,7 @@ nav {
         top: calc(#{$headerHeight} + 8px);
         height: calc(100vh - 8px);
     }
-    .responsive a:before {
+    .responsive a {
         clear: both;
     }
     .responsive a.burger-icon {
