@@ -281,8 +281,7 @@ nav {
     text-transform: uppercase;	  
 	  
     &:hover,
-    &:focus,
-    .active-menu {
+    &:focus {
       color: $white;
       background-color: $colourAccent;
     }
@@ -291,6 +290,11 @@ nav {
       margin: 0 10px;
     }
   }
+}
+
+.active-menu {
+    color: $white;
+    background-color: $colourAccent;
 }
 
 .download-link {
