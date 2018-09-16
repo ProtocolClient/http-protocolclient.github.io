@@ -56,7 +56,10 @@ nav {
         display: none;
         margin: 0;
             
-        padding: 19px 15px;
+        padding-top: 24px;
+        padding-right: 15px;
+        padding-bottom: 23px;
+        padding-left: 15px;
 
         @include mobile {
             float: right;
