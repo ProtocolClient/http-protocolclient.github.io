@@ -51,28 +51,24 @@
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Burger menu */
-.topnav .burger-icon {
-    display: none;
-    
-    @include mobile {
-        float: right;
-        display: block;
-    }
-}
-
 nav {
+    .burger-icon {
+        display: none;
+
+        @include mobile {
+            float: right;
+            display: block;
+        }
+    }
+    
     /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
     @include mobile {
       a, .dropdown .dropbtn {
         display: none;
       }
-      a.icon {
-        float: right;
-        display: block;
-      }
  
       .responsive {position: relative;}
-      .responsive a.icon {
+      .responsive a.burger-icon {
         position: absolute;
         right: 0;
         top: 0;
