@@ -13,13 +13,13 @@ function GetFullURL(url){
 }
 
 $( document ).ready(function() {
-    console.log("**" + window.location.href);
-    
     $("nav a").each(function() {
         $(this).removeClass("active-menu");
         if (GetFullURL($(this).attr("href")) == window.location.href)
             $(this).addClass("active-menu");
-
-        console.log(GetFullURL($(this).attr("href")));
     });
 });
+
+function ToggleBurgerMenu() {
+    $("nav").toggleClass("responsive");
+}
