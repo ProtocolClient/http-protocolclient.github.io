@@ -51,7 +51,7 @@
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Burger menu */
-.topnav .icon {
+.topnav .burger-icon {
     display: none;
     
     @include mobile {
