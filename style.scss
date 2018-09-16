@@ -276,6 +276,10 @@ nav {
 	
   .download-link {
     padding-bottom: 29px!important;
+
+    @include mobile {
+       padding-bottom: 15px!important;    
+    }
   }
 }
 
