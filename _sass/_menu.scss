@@ -38,10 +38,7 @@
 
 /* Links inside the dropdown */
 .dropdown-content a {/*
-    color: $colourMainText;
-    text-decoration: none;
-    display: block;
-    line-height: $headerHeight;*/
+    min-width: 120px;
 }
 
 /* Change color of dropdown links on hover */
