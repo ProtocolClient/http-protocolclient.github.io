@@ -6,6 +6,9 @@ function GetFullURL(url){
     url = a.href; 
     a.href = null; 
     
+    if(url.slice(url.length - 1) != "/")
+        url = url + "/";
+    
     return url;
 }
 
