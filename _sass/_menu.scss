@@ -38,7 +38,8 @@
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    min-width: 120px;
+    display: inline-block;
+    line-height: normal;
 }
 
 /* Change color of dropdown links on hover */
