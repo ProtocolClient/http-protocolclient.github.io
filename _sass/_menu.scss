@@ -54,6 +54,9 @@
 nav {
     .burger-icon {
         display: none;
+        margin: 0;
+            
+        padding: 19px 15px;
 
         @include mobile {
             float: right;
