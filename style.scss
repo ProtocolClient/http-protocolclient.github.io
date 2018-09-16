@@ -170,7 +170,7 @@ img {
 .wrapper-masthead-underline {
   border-top: solid 2px $colourCallToAction;
   position: fixed;
-  top: calc($headerHeight + 8px);
+  top: calc(#{$headerHeight} + 8px);
   width: 100%;
 }
 
