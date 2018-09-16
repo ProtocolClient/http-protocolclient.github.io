@@ -17,6 +17,7 @@
     position: relative;
     display: inline-block;
     padding: 0;
+    border: solid 1px $colourAccent;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -37,10 +38,9 @@
 }
 
 /* Change color of dropdown links on hover */
-.dropdown:hover .dropbtn,
-.dropdown-content a:hover {
-    /*background-color: $colourAccent;
-    color: $white;*/
+.dropdown:hover .dropbtn{
+    background-color: $colourAccent;
+    color: $white;
 }
 
 /* Show the dropdown menu on hover */
