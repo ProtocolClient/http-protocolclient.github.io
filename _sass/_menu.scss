@@ -76,7 +76,7 @@ nav {
     .responsive {
         position: relative;
         top: calc(#{$headerHeight} + 8px);
-        height: calc(100vh - (#{$headerHeight} - 8px);
+        height: calc(100vh - #{$headerHeight} - 8px);
     }
     .responsive a.burger-icon {
         position: absolute;
