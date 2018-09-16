@@ -50,4 +50,43 @@
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
+/* Burger menu */
+.topnav .icon {
+    display: none;
+    
+    @include mobile {
+        float: right;
+        display: block;
+    }
+}
 
+nav {
+    /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+    @include mobile {
+      a, .dropdown .dropbtn {
+        display: none;
+      }
+      a.icon {
+        float: right;
+        display: block;
+      }
+ 
+      .responsive {position: relative;}
+      .responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .responsive a {
+        display: block;
+        text-align: left;
+      }
+      .responsive .dropdown {float: none;}
+      .responsive .dropdown-content {position: relative;}
+      .responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+      }
+    }
+}
