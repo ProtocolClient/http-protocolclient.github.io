@@ -281,7 +281,8 @@ nav {
     text-transform: uppercase;	  
 	  
     &:hover,
-    &:focus {
+    &:focus,
+    .active-menu {
       color: $white;
       background-color: $colourAccent;
     }
