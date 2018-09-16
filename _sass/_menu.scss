@@ -82,6 +82,7 @@ nav {
     .responsive a {
         display: block;
         text-align: left;
+        line-height: normal;
     }
     .responsive .dropdown {float: none;}
     .responsive .dropdown-content {position: relative;}
@@ -89,5 +90,6 @@ nav {
         display: block;
         width: 100%;
         text-align: left;
+        line-height: normal;
     }
 }
