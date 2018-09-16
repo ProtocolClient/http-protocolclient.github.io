@@ -63,7 +63,7 @@ nav {
 }
 
 @include mobile {
-    a, .dropdown .dropbtn {
+    nav a, .dropdown .dropbtn {
         display: none;
     }
 
