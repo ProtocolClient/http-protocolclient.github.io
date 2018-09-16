@@ -84,7 +84,11 @@ nav {
         text-align: left;
         line-height: normal;
     }
-    .responsive .dropdown {float: none;}
+    .responsive .dropdown {
+        display: block;
+        text-align: left;
+        line-height: normal;
+    }
     .responsive .dropdown-content {position: relative;}
     .responsive .dropdown .dropbtn {
         display: block;
