@@ -17,7 +17,6 @@
     position: relative;
     display: inline-block;
     padding: 0;
-    border: solid 1px $colourAccent;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -26,7 +25,7 @@
     position: absolute;
     background-color: $white;
     min-width: 60px;
-    z-index: 1;
+    border: solid 1px $colourAccent;
 }
 
 /* Links inside the dropdown */
