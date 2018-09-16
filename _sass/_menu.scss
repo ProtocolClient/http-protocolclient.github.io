@@ -29,18 +29,18 @@
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
+.dropdown-content a {/*
     color: $colourMainText;
     text-decoration: none;
     display: block;
-    line-height: $headerHeight;
+    line-height: $headerHeight;*/
 }
 
 /* Change color of dropdown links on hover */
 .dropdown:hover .dropbtn,
 .dropdown-content a:hover {
-    background-color: $colourAccent;
-    color: $white;
+    /*background-color: $colourAccent;
+    color: $white;*/
 }
 
 /* Show the dropdown menu on hover */
