@@ -73,11 +73,14 @@ nav {
         display: none;
     }
 
-    .responsive {position: relative;}
+    .responsive {
+        position: relative;
+        top: calc(#{$headerHeight} + 8px);
+    }
     .responsive a.burger-icon {
         position: absolute;
         right: 0;
-        top: 0;
+        top: calc(- (#{$headerHeight} + 8px));
     }
     .responsive a {
         display: block;
