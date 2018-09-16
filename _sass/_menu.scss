@@ -15,6 +15,7 @@
     padding: 16px;
     font-size: inherit;
     border: none;
+    height: $headerHeight;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -28,20 +29,23 @@
     display: none;
     position: absolute;
     background-color: $white;
-    min-width: 160px;
+    min-width: 60px;
     z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
     color: $colourMainText;
-    padding: 12px 16px;
     text-decoration: none;
     display: block;
+    height: $headerHeight;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: $colourAccent;}
+.dropdown-content a:hover {
+    background-color: $colourAccent;
+    color: $white;
+}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
