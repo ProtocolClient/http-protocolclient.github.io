@@ -76,9 +76,13 @@ nav {
     }
 
     .responsive {
-        position: relative;
+        position: absolute;
         top: calc(#{$headerHeight} + 8px);
-        height: calc(100vh - 8px);
+        left: 0;
+        height: calc(100vh - #{$headerHeight} - 8px);
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
     }
     .responsive a {
         clear: both;
